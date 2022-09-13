@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    transition: 0.2s;
+}
+
+
+.svg {
+    display: flex;
+    justify-content: center;
+    margin: 90px 0 0;
+}
+
+.title h1 {
+    margin: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+header .title {
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: 100% 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    margin: 0 10px;
+}
+
+.h2 {
+    text-align: center;
+    max-width: 562px;
+    margin: auto;
+}
+
+.computer {
+    width: 420px;
+    height: 340px;
+    background-image: url(../images/image-computer.png);
+    background-size: 100% 100%;
+}
+
+.one {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 52px 0;
+    justify-content: center;
+    gap: 74px
+}
+
+.one div:last-of-type {
+    line-height: 24px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.two {
+    display: flex;
+    margin: 52px 0;
+    justify-content: center;
+}
+
+.app {
+    width: 570px;
+    height: 360px;
+    background-image: url(../images/image-devices.png);
+    background-size: 100% 100%;
+}
+
+.thre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.thre div {
+    width: 289px;
+    text-align: center;
+    line-height: 20px;
+    margin: 70px 0px;
+}
+
+.thre div svg {
+    margin: 20px;
+}
+
+.png {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+    gap: 95px;
+    justify-content: center;
+}
+
+.button {
+    text-align: center;
+    margin: 30px;
+}
+
+.button button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    margin: 8px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px -4px 4px -4px rgb(71 70 70) inset;
+    color: white;
+}
+
+.button button:first-of-type {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.button button:last-of-type {
+    background-color: hsl(233, 100%, 69%);
+}
+
+
+
+footer .foot {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    background-color: #f5f6f8;
+    padding: 24px;
+    margin: 70px auto 10px;
+    gap: 20px 0;
+    max-width: 1200px;
+
+}
+
+footer .foot img {
+    width: 55px;
+    margin: auto;
+}
+
+footer .icon-link {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(120px, 120px));
+    justify-content: center;
+    transition: 0.3s;
+}
+
+footer .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+footer .social-link img {
+    width: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(201deg 6% 41%);
+    font-weight: 600;
+}
+
+.button button:first-of-type:hover {
+    background-color: #6aecd6;
+}
+
+.button button:last-of-type:hover {
+    background-color: #a9b2fc;
+}
+
+footer .foot a:hover {
+    color: #5bcdba;
+}
+
+footer .foot a img:hover {
+    filter: invert(82%) sepia(43%) saturate(469%) hue-rotate(110deg) brightness(97%) contrast(90%);
+}
+
+footer .attribution a:hover {
+    color: #5bcdba;
+}
+
+footer .attribution a:hover {
+    border-left: 5px solid #023f35;
+    border-radius: 20%;
+
+
+}
+
+
+
+
+h1,
+h2,
+h3 {
+    color: hsl(210, 10%, 33%);
+}
+
+.one,
+.thre,
+.title,
+.h2 p {
+    color: hsl(201deg 8% 42% / 46%);
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 14px;
+}
+
+.h2 p {
+    font-size: 13px;
+}
+
+.thre,
+.one div p {
+    font-size: 12px;
+}
+
+@media (max-width:375px) {
+    header .title {
+        background-image: url(../images/bg-header-mobile.png);
+
+    }
+
+    .title p {
+        max-width: 304px;
+        margin: auto;
+    }
+
+    .button button {
+        width: 284px;
+        box-shadow: 0px -4px 4px -4px rgb(71 70 70) inset;
+        height: 50px;
+    }
+
+    .title h1 {
+        margin: 20px;
+    }
+
+    .computer {
+        height: 254px;
+    }
+
+    .app {
+        height: 240px;
+    }
+
+    .one div:last-of-type {
+        text-align: center;
+    }
+
+    .thre div {
+        margin: 8px 0px;
+    }
+
+    .png {
+        margin: 100px 34px;
+        gap: 50px;
+    }
+
+    footer .icon-link {
+        grid-template-columns: repeat(1, minmax(120px, 120px));
+        gap: 25px;
+        text-align: center;
+    }
+
+    footer .foot {
+        margin: 130px auto 10px;
+    }
+}
