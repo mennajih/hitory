@@ -117,6 +117,7 @@ section {
 .button {
     text-align: center;
     margin: 30px;
+    font-weight:bold;
 }
 
 .button button {
